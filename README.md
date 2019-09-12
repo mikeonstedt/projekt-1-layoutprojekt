@@ -11,3 +11,10 @@
 5. Github Desktop: Gör commits ofta med tydliga commitmeddelanden
 6. Github Desktop: Sync
 7. github.com: Verifiera att alla era filer finns online
+
+
+De tre bilderna "child.png", "adult.png" och "old.png" är i olika höjden, för att slippa ändra bilderna så behövs de "klippas"
+se CSS clip Property på https://www.w3schools.com/cssref/tryit.asp?filename=trycss_clip
+
+
+
