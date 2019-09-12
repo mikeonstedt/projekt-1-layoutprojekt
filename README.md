@@ -13,8 +13,8 @@
 7. github.com: Verifiera att alla era filer finns online
 
 
-De tre bilderna "child.png", "adult.png" och "old.png" är i olika höjden, för att slippa ändra bilderna så behövs de "klippas"
-se CSS clip Property på https://www.w3schools.com/cssref/tryit.asp?filename=trycss_clip
+De tre bilderna "child.png", "adult.png" och "old.png" är i olika höjden, för att slippa ändra bilderna så används overflow:hidden
+se CSS clip Property https://www.w3schools.com/css/tryit.asp?filename=trycss_overflow_hidden
 
 
 
