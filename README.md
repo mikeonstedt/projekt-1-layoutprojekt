@@ -1,4 +1,4 @@
-# Projekt 1 - Insurance Site
+# Projekt 1 - Layout
 
 ## Instruktioner
 
