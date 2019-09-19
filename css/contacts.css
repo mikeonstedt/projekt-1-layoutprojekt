@@ -1,0 +1,164 @@
+
+body {
+    background: gray;
+    
+}
+.contacts-container {
+    display: grid;
+    grid-template-areas: "header header header header header header"
+"nav nav nav nav nav nav"
+"main main main main main main"
+"gps gps gps gps gps gps"
+"footer footer footer footer footer footer";
+grid-template-rows: 450px 90px 700px 500px 400px;
+
+margin: auto;
+max-width: 1200px;
+}
+
+header {
+    display:grid;
+    grid-area: header;
+    background: rgb(203, 224, 224);
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+}
+.img-1 img{
+    object-fit: contain;
+    height: 393px;
+    width: 400px;
+   
+}
+.text-1 {
+    
+    
+    grid-row: 4/5;
+    grid-column: 3/5;
+    position: relative;
+    text-align: center;
+    right: 15px;
+
+}
+.img-1 {
+    grid-row: 2/6;
+    grid-column: 5/7;
+    position: relative;
+    right: 80px;
+}
+.text-1 h1 {
+    font-size: 60px;
+}
+
+nav {
+    grid-area: nav;
+    
+    background: white;
+}
+nav .text-2 {
+    display: flex;
+    justify-content: center; 
+   
+}
+.text-2 h3{
+   margin: auto;
+   margin-left: 65px;
+   margin-right: 65px;
+   color: rgb(182, 178, 178);
+   margin-top: 30px;
+}
+main {
+    display: grid;
+    grid-area: main;
+    background: rgb(148, 144, 144);
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    
+}
+.text-3 {
+    position: relative;
+    grid-column: 2/4;
+    grid-row: 2/2;
+    bottom: 30px;
+    right: 80px;
+}
+.text-3 h1 {
+    color: white;
+    font-size: 55px;
+}
+.input-box {
+    display: flex;
+    grid-column: 4/7;
+    grid-row: 2/6;
+    flex-direction: column;
+    
+}
+.input-box p {
+    color: white;
+    font-family:  'Montserrat', sans-serif;
+}
+.input-box input {
+    border-radius: 5px;
+    width: 395px;
+    height: 40px;
+    font-size: 20px;
+    
+}
+textarea {
+    font-size: 20px;
+}
+.send-message {
+    background-color: white;
+    border-radius: 20px;
+    width: 150px;
+    height: 45px;
+    position: relative;
+    top: 60px;
+    right: 195px;
+    align-self: flex-end;
+    align-content: center;
+    
+    
+}
+.send-message h3 {
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    font-family: 'Lora', serif;
+    bottom: 5px;
+}
+
+
+
+
+.gps {
+    grid-area: gps;
+    
+  
+   
+}
+.gps .gps-image img {
+    object-fit: contain;
+    width: 1200px;
+    
+}
+footer {
+    grid-area: footer;
+    background: rgb(102, 101, 101);
+}
+a {
+    text-decoration: none;
+}
+h3:hover {
+    color: black;
+    
+}
+.contact h3 {
+    color: black;
+}
+.contact h3:hover {
+    color: gray;
+}
+textarea {
+    resize: none;
+}
